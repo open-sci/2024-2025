@@ -17,9 +17,23 @@ This space contains all the material related to the [Open Science course](https:
 ### Material
 
 1. [31/3/25] Introduction to Open Science
+   * Introduction to the course: [slide](https://docs.google.com/presentation/d/1Shuca-EDhPs5K5f9iVNd-rR_PQLPhBPkWp4nghTK2JI/edit?usp=sharing)
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1ulfsEc4GIUq9g9VV56tdQWawLgGcw0OJk3Ww71pEu00/edit?usp=sharing)
+   * Project Presentation: [slide](https://docs.google.com/presentation/d/18K2i4kCszGnXIkMf4xtaXw5ObEL4WerSX2Sja0upRzY/edit?usp=sharing)
+   * Supplementaty bibliography (optional):
+     * Bahlai, C., Bartlett, L., Burgio, K., Fournier, A., Keiser, C., Poisot, T., & Whitney, K. (2019). Open Science Isn’t Always Open to All Scientists. American Scientist, 107(2), 78. https://doi.org/10.1511/2019.107.2.78
+     * Fecher, B., & Friesike, S. (2014). Open Science: One Term, Five Schools of Thought. In S. Bartling & S. Friesike (Eds.), Opening Science (pp. 17–47). Springer International Publishing. https://doi.org/10.1007/978-3-319-00026-8_2
+     * Imming, M., & Tennant, J. (2018). Sticker open science: Just science done right [Graphic]. https://doi.org/10.5281/ZENODO.1285575
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Leonelli, S. (2023). Philosophy of Open Science (1st ed.). Cambridge University Press. https://doi.org/10.1017/9781009416368
+     * Reproducibility. (2025). In English Wikipedia. https://en.wikipedia.org/wiki/Reproducibility
+     * UNESCO. (2018). Recommendation on Science and Scientific Researchers (Programme and Meeting Document SHS/BIO/PI/2017/3 Rev; p. 24). https://unesdoc.unesco.org/ark:/48223/pf0000263618
+     * UNESCO. (2021). UNESCO Recommendation on Open Science (Programme and Meeting Document SC-PCB-SPP/2021/OS/UROS; p. 36). https://unesdoc.unesco.org/ark:/48223/pf0000379949
    <hr></hr>
 
 2. [3/4/25] Reproducibility
+   * Mandatory reading (to read and study before the lecture):
+     * Meng, X.-L. (2020). Reproducibility, Replicability, and Reliability. Harvard Data Science Review, 2(4). https://doi.org/10.1162/99608f92.dbfce7f9 
    <hr></hr>
 
 3. [7/4/25] FAIR and Open Data
