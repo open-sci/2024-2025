@@ -20,7 +20,7 @@ This space contains all the material related to the [Open Science course](https:
    * Introduction to the course: [slide](https://docs.google.com/presentation/d/1Shuca-EDhPs5K5f9iVNd-rR_PQLPhBPkWp4nghTK2JI/edit?usp=sharing)
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1ulfsEc4GIUq9g9VV56tdQWawLgGcw0OJk3Ww71pEu00/edit?usp=sharing)
    * Project Presentation: [slide](https://docs.google.com/presentation/d/18K2i4kCszGnXIkMf4xtaXw5ObEL4WerSX2Sja0upRzY/edit?usp=sharing)
-   * Supplementaty bibliography (optional):
+   * Supplementary bibliography (optional):
      * Bahlai, C., Bartlett, L., Burgio, K., Fournier, A., Keiser, C., Poisot, T., & Whitney, K. (2019). Open Science Isn’t Always Open to All Scientists. American Scientist, 107(2), 78. https://doi.org/10.1511/2019.107.2.78
      * Fecher, B., & Friesike, S. (2014). Open Science: One Term, Five Schools of Thought. In S. Bartling & S. Friesike (Eds.), Opening Science (pp. 17–47). Springer International Publishing. https://doi.org/10.1007/978-3-319-00026-8_2
      * Imming, M., & Tennant, J. (2018). Sticker open science: Just science done right [Graphic]. https://doi.org/10.5281/ZENODO.1285575
