@@ -34,9 +34,20 @@ This space contains all the material related to the [Open Science course](https:
 2. [3/4/25] Reproducibility
    * Mandatory reading (to read and study before the lecture):
      * Meng, X.-L. (2020). Reproducibility, Replicability, and Reliability. Harvard Data Science Review, 2(4). https://doi.org/10.1162/99608f92.dbfce7f9 
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1N2TC1GV2ACTtO97KNGIcF9EUxX2_ZMU9YhPbed71hlg/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
+     * European Commission, Directorate General for Research and Innovation, Baker, L., Cristea, I. A., Errington, T. M., Jaśko, K., Lusoli, W., MacCallum, C. J., Parry, V., Pérignon, C., Šimko, T., & Winchester, C. (2020). Reproducibility of scientific results in the EU: Scoping report (W. Lusoli, Ed.). Publications Office. https://doi.org/10.2777/341654
+     * Fanelli, D. (2018). Opinion: Is science really facing a reproducibility crisis, and do we need it to? Proceedings of the National Academy of Sciences, 115(11), 2628–2631. https://doi.org/10.1073/pnas.1708272114
+     * Goodman, S. N., Fanelli, D., & Ioannidis, J. P. A. (2016). What does research reproducibility mean? Science Translational Medicine, 8(341). https://doi.org/10.1126/scitranslmed.aaf5027 (OA at https://osf.io/dw23g)
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Peng, R. (2015). The reproducibility crisis in science: A statistical counterattack. Significance, 12(3), 30–32. https://doi.org/10.1111/j.1740-9713.2015.00827.x
+     * UNESCO. (2021). UNESCO Recommendation on Open Science (Programme and Meeting Document SC-PCB-SPP/2021/OS/UROS; p. 36). https://unesdoc.unesco.org/ark:/48223/pf0000379949
    <hr></hr>
 
 3. [7/4/25] FAIR and Open Data
+   * Mandatory reading (to read and study before the lecture):
+     * Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
    <hr></hr>
 
 4. [10/4/25] Open Methodology
