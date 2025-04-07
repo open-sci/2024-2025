@@ -48,9 +48,25 @@ This space contains all the material related to the [Open Science course](https:
 3. [7/4/25] FAIR and Open Data
    * Mandatory reading (to read and study before the lecture):
      * Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1bSf4jRTqZYnA_Htz9nQxP5IaFFvIoGZrAD5273Y6XCc/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Avanço, K., Balula, A., Błaszczyńska, M., Buchner, A., Caliman, L., Clivaz, C., Costa, C., Franczak, M., Gatti, R., Giglia, E., Gingold, A., Jarmelo, S., Padez, M. J., Leão, D., Maryl, M., Melinščak Zlodi, I., Mojsak, K., Morka, A., Mosterd, T., … Wieneke, L. (2021). Future of Scholarly Communication—Forging an inclusive and innovative research infrastructure for scholarly communication in Social Sciences and Humanities (p. 46). Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences. https://doi.org/10.5281/zenodo.5017705
+     * Caldoni, G., Gualandi, B., & Marino, M. (2022). Research Data Management: Decision Tree [Decision tree]. Alma Mater Studiorum - Università di Bologna. https://doi.org/10.5281/zenodo.7190005
+     * Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
+     * Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., & Honeyman, T. (2022). FAIR Principles for Research Software (FAIR4RS Principles) [RDA Recommendation]. Research Data Alliance. https://doi.org/10.15497/RDA00068
+     * Gomes, D. G. E., Pottier, P., Crystal-Ornelas, R., Hudgins, E. J., Foroughirad, V., Sánchez-Reyes, L. L., Turba, R., Martinez, P. A., Moreau, D., Bertram, M. G., Smout, C. A., & Gaynor, K. M. (2022). Why don’t we share data and code? Perceived barriers and benefits to public archiving practices. Proceedings of the Royal Society B: Biological Sciences, 289(1987), 20221113. https://doi.org/10.1098/rspb.2022.1113
+     * Gualandi, B., Caldoni, G., & Marino, M. (2022). Research Data Management: Data Lifecycle [Diagram]. Alma Mater Studiorum - Università di Bologna. https://doi.org/10.5281/zenodo.7249051
+     * Gualandi, B., Pareschi, L., & Peroni, S. (2022). What do we mean by ‘data’? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51–71. https://doi.org/10.1108/JD-07-2022-0146
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Landi, A., Thompson, M., Giannuzzi, V., Bonifazi, F., Labastida, I., da Silva Santos, L. O. B., & Roos, M. (2020). The “A” of FAIR – As Open as Possible, as Closed as Necessary. Data Intelligence, 2(1–2), 47–55. https://doi.org/10.1162/dint_a_00027
+     * Open Knowledge Foundation. (2015, November). Open Definition 2.1. https://opendefinition.org/od/2.1/en/
+     * Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/EC (General Data Protection Regulation), L119, Official Journal of the European Union (2016). http://data.europa.eu/eli/reg/2016/679/oj
+     * Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
    <hr></hr>
 
 4. [10/4/25] Open Methodology
+   * Mandatory reading (to read and study before the lecture):
+     * Chigbu, U. E., Atiku, S. O., & Du Plessis, C. C. (2023). The Science of Literature Reviews: Searching, Identifying, Selecting, and Synthesising. Publications, 11(1), 2. https://doi.org/10.3390/publications11010002
    <hr></hr>
 
 5. [14/4/25] Open Peer Review
