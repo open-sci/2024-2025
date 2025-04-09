@@ -26,7 +26,7 @@ This project investigates metadata access and retrieval from the following repos
     * Primary API Root: [https://archive.softwareheritage.org/api/1/](https://archive.softwareheritage.org/api/1/)
     * Metadata Endpoint: [https://archive.softwareheritage.org/api/1/#metadata](https://archive.softwareheritage.org/api/1/#metadata)
     * Web API: [https://forge.softwareheritage.org/source/swh-web/](https://forge.softwareheritage.org/source/swh-web/)
-* **Data Model:** Their data model is described in a research paper as a directed graph with relational tables: [https://ieeexplore.ieee.org/document/8816748](https://ieeexplore.ieee.org/document/8816748)
+* **Data Model:** Their data model is described in a paper as a directed graph with relational tables - Pietri et al. (2019), [_The Software Heritage Graph Dataset: Public Software Development Under One Roof_](https://ieeexplore.ieee.org/document/8816748)
 
 **N.B.!** **Terms of Use:** Access to the SWH API is subject to specific terms and conditions, including restrictions on massive data extraction: [https://www.softwareheritage.org/legal/api-terms-of-use/](https://www.softwareheritage.org/legal/api-terms-of-use/).
 
