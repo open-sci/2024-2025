@@ -13,14 +13,14 @@ This project investigates metadata access and retrieval from the following repos
 * A research tool is available, but it does not allow direct querying based on project affiliation.
 * **Affiliation Metadata:** Affiliation metadata is not consistently and explicitly provided for all projects.
 * It is possible to filter content by document type (e.g., dataset, software) and export results in various formats.
-* **IRIS Dump:** An IRIS data dump is available on AMS Acta. Notably, the file `"ODS_L1_IR_ITEM_CON_PERSON.csv"` within this dump contains information about current University of Bologna (UNIBO) authors, including their ORCID IDs (ITEM_ID, RM_PERSON_ID, PID, ORCID, FIRST_NAME, LAST_NAME, PLACE).
+* **IRIS Dump:** An IRIS data dump is available on AMS Acta. Notably, the file `ODS_L1_IR_ITEM_CON_PERSON.csv` within this dump contains information about current University of Bologna (UNIBO) authors, including their ORCID IDs (ITEM_ID, RM_PERSON_ID, PID, ORCID, FIRST_NAME, LAST_NAME, PLACE).
 
 ## SOFTWARE HERITAGE ([https://www.softwareheritage.org/](https://www.softwareheritage.org/))
 
 * **[Documentation](https://docs.softwareheritage.org/devel/index.html):** Comprehensive documentation is available, covering usage, infrastructure, API reference, and development.
-* A guide is available for searching and browsing their web archive.
-* **GitLab:** Their development and collaboration platform is accessible via (GitLab)[https://gitlab.softwareheritage.org/explore](https://gitlab.softwareheritage.org/explore).
-* **Metadata:** Utilizes the concepts of [intrinsic](https://docs.softwareheritage.org/devel/glossary.html#term-intrinsic-metadata) and [extrinsic](https://docs.softwareheritage.org/devel/glossary.html#term-extrinsic-metadata) metadata.<br>
+* A guide is available for searching and browsing the web archive.
+* **GitLab:** Their development and collaboration platform is accessible via [GitLab](https://gitlab.softwareheritage.org/explore).
+* **Metadata:** They utilize the concepts of [intrinsic](https://docs.softwareheritage.org/devel/glossary.html#term-intrinsic-metadata) and [extrinsic](https://docs.softwareheritage.org/devel/glossary.html#term-extrinsic-metadata) metadata.<br>
   Their metadata workflow and architecture are detailed [here](https://docs.softwareheritage.org/devel/architecture/metadata.html#architecture-metadata).
 * **APIs and Endpoints:**
     * Primary API Root: [https://archive.softwareheritage.org/api/1/](https://archive.softwareheritage.org/api/1/)
