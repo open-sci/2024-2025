@@ -84,9 +84,23 @@ This space contains all the material related to the [Open Science course](https:
 5. [14/4/25] Open Peer Review
    * Mandatory reading (to read and study before the lecture):
      * Papanas, N., & Mikhailidis, D. P. (2024). Alice through the Looking-glass: Can We Improve Peer Review? The International Journal of Lower Extremity Wounds, 23(3), 356–359. https://doi.org/10.1177/15347346221084784
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1OMjcBQrVshMZNDK2H0pb5qXuxvz-d5UyMEIOm8-Dh3Y/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Coalition for Advancing Research Assessment. (2022). Agreement on Reforming Research Assessment [Policy]. European Science Foundation. https://coara.eu/agreement/the-agreement-full-text/
+     * Eve, M. P., Neylon, C., O’Donnell, D. P., Moore, S., Gadie, R., Odeniyi, V., & Parvin, S. (2020). Reading Peer Review (1st ed.). Cambridge University Press. https://doi.org/10.1017/9781108783521
+     * Gangemi, A., Peroni, S., Shotton, D. M., & Vitali, F. (2017). The Publishing Workflow Ontology (PWO). Semantic Web, 8(5), 703–718. https://doi.org/10.3233/SW-160230
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Papanas, N., & Mikhailidis, D. P. (2024). Alice through the Looking-glass: Can We Improve Peer Review? The International Journal of Lower Extremity Wounds, 23(3), 356–359. https://doi.org/10.1177/15347346221084784
+     * Ross-Hellauer, T. (2017). What is open peer review? A systematic review. F1000Research, 6, 588. https://doi.org/10.12688/f1000research.11369.2
+     * Tennant, J. P., Crane, H., Crick, T., Davila, J., Enkhbayar, A., Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. Publications, 7(2), 34. https://doi.org/10.3390/publications7020034
+     * Tennant, J. P., Dugan, J. M., Graziotin, D., Jacques, D. C., Waldner, F., Mietchen, D., Elkhatib, Y., B. Collister, L., Pikas, C. K., Crick, T., Masuzzo, P., Caravaggi, A., Berg, D. R., Niemeyer, K. E., Ross-Hellauer, T., Mannheimer, S., Rigling, L., Katz, D. S., Greshake Tzovaras, B., … Colomb, J. (2017). A multi-disciplinary perspective on emergent and future innovations in peer review. F1000Research, 6, 1151. https://doi.org/10.12688/f1000research.12037.3
+     * UNESCO. (2021). UNESCO Recommendation on Open Science (Programme and Meeting Document SC-PCB-SPP/2021/OS/UROS; p. 36). https://unesdoc.unesco.org/ark:/48223/pf0000379949
+     * Waltman, L., & Polka, J. (2022, July 7). Making sense of preprints by adding context – The Publish Your Reviews initiative [Blog]. LSE Impact Blog. https://blogs.lse.ac.uk/impactofsocialsciences/2022/07/07/making-sense-of-preprints-by-adding-context-the-publish-your-reviews-initiative/
    <hr></hr>
 
 6. [28/4/25] Open Source Software
+   * Mandatory reading (to read and study before the lecture):
+     * Borisova, E., Abu Ahmad, R., Garcia-Castro, L., Usbeck, R., & Rehm, G. (2024). Surveying the FAIRness of Annotation Tools: Difficult to find, difficult to reuse. Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII), 29–45. https://aclanthology.org/2024.law-1.4/
    <hr></hr>
 
 7. [5/5/25] Open Access
