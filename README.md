@@ -101,9 +101,23 @@ This space contains all the material related to the [Open Science course](https:
 6. [28/4/25] Open Source Software
    * Mandatory reading (to read and study before the lecture):
      * Borisova, E., Abu Ahmad, R., Garcia-Castro, L., Usbeck, R., & Rehm, G. (2024). Surveying the FAIRness of Annotation Tools: Difficult to find, difficult to reuse. Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII), 29–45. https://aclanthology.org/2024.law-1.4/
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1QHS1kejl_K3JmDrUbuGpbVb5FtMNTa4N2IwLO_niwnA/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Abramatic, J.-F., Di Cosmo, R., & Zacchiroli, S. (2018). Building the universal archive of source code. Communications of the ACM, 61(10), 29–31. https://doi.org/10.1145/3183558
+     * Alliez, P., Cosmo, R. D., Guedj, B., Girault, A., Hacid, M.-S., Legrand, A., & Rougier, N. (2020). Attributing and Referencing (Research) Software: Best Practices and Outlook From Inria. Computing in Science & Engineering, 22(1), 39–52. https://doi.org/10.1109/MCSE.2019.2949413
+     * Borisova, E., Abu Ahmad, R., Garcia-Castro, L., Usbeck, R., & Rehm, G. (2024). Surveying the FAIRness of Annotation Tools: Difficult to find, difficult to reuse. Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII), 29–45. https://aclanthology.org/2024.law-1.4/
+     * Cohen, J., Katz, D. S., Barker, M., Chue Hong, N., Haines, R., & Jay, C. (2021). The Four Pillars of Research Software Engineering. IEEE Software, 38(1), 97–105. https://doi.org/10.1109/MS.2020.2973362
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Nuvolari, A. (2005). Open source software development: Some historical perspectives. First Monday. https://doi.org/10.5210/fm.v10i10.1284
+     * Open Source Initiative. (2007, March 22). The Open Source Definition. https://opensource.org/osd
+     * Prlić, A., & Procter, J. B. (2012). Ten Simple Rules for the Open Development of Scientific Software. PLoS Computational Biology, 8(12), e1002802. https://doi.org/10.1371/journal.pcbi.1002802
+     * Raymond, E. S. (2000). The cathedral and the bazaar: Musings on Linux and open source by an accidental revolutionary (Version 3.0). O’Reilly Media. http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+     * Smith, A. M., Katz, D. S., Niemeyer, K. E., & FORCE11 Software Citation Working Group. (2016). Software citation principles. PeerJ Computer Science, 2, e86. https://doi.org/10.7717/peerj-cs.86
    <hr></hr>
 
 7. [5/5/25] Open Access
+   * Mandatory reading (to read and study before the lecture):
+     * Hyde, A. (2025). PRC vs The Cathedral: How PRC Might Change Publishing (Version 1). https://www.robotscooking.com/content/files/2025/01/PRC-vs-The-Cathedral_V1.pdf 
    <hr></hr>
 
 8. [8/5/25] Open Metrics
