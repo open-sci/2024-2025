@@ -118,9 +118,23 @@ This space contains all the material related to the [Open Science course](https:
 7. [5/5/25] Open Access
    * Mandatory reading (to read and study before the lecture):
      * Hyde, A. (2025). PRC vs The Cathedral: How PRC Might Change Publishing (Version 1). https://www.robotscooking.com/content/files/2025/01/PRC-vs-The-Cathedral_V1.pdf 
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1Knlc6MLSBd6bPI1IexA0gfZ3ejl9zODyptoy1zPdxPY/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Bosman, J., Frantsvåg, J. E., Kramer, B., Langlais, P.-C., & Proudman, V. (2021). OA Diamond Journals Study. Part 1: Findings. Zenodo. https://doi.org/10.5281/ZENODO.4558704
+     * Brainard, J. (2021). Open access takes flight. Science, 371(6524), 16–20. https://doi.org/10.1126/science.371.6524.16
+     * Fyfe, A. (2021). Self-help for learned journals: Scientific societies and the commerce of publishing in the 1950s. History of Science, 007327532199990. https://doi.org/10.1177/0073275321999901
+     * Hyde, A. (2025). PRC vs The Cathedral: How PRC Might Change Publishing (Version 1). https://www.robotscooking.com/content/files/2025/01/PRC-vs-The-Cathedral_V1.pdf
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Logan, C. J. (2017). We can shift academic culture through publishing choices. F1000Research, 6, 518. https://doi.org/10.12688/f1000research.11415.2
+     * Piwowar, H., Priem, J., Larivière, V., Alperin, J. P., Matthias, L., Norlander, B., Farley, A., West, J., & Haustein, S. (2018). The state of OA: A large-scale analysis of the prevalence and impact of Open Access articles. PeerJ, 6, e4375. https://doi.org/10.7717/peerj.4375
+     * Tennant, J. (2018). What do penguins, Gimli, and cobras have to do with Open Science? DARIAH Annual Event 2018, Paris, France. figshare. https://doi.org/10.6084/M9.FIGSHARE.6326339.V1
+     * Tennant, J. P., Crane, H., Crick, T., Davila, J., Enkhbayar, A., Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. Publications, 7(2), 34. https://doi.org/10.3390/publications7020034
+     * Tennant, J. P., Waldner, F., Jacques, D. C., Masuzzo, P., Collister, L. B., & Hartgerink, Chris. H. J. (2016). The academic, economic and societal impacts of Open Access: An evidence-based review. F1000Research, 5, 632. https://doi.org/10.12688/f1000research.8460.3
    <hr></hr>
 
 8. [8/5/25] Open Metrics
+   * Mandatory reading (to read and study before the lecture):
+     * Ma, L. (2022). Metrics and epistemic injustice. Journal of Documentation, 78(7), 392–404. https://doi.org/10.1108/JD-12-2021-0240
    <hr></hr>
 
 9. [12/5/25] Open Infrastructures
