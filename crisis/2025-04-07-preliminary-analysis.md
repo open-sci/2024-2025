@@ -28,6 +28,8 @@ This project investigates metadata access and retrieval from the following repos
     * Web API: [https://forge.softwareheritage.org/source/swh-web/](https://forge.softwareheritage.org/source/swh-web/)
 * **Data Model:** Their data model is described in a paper as a directed graph with relational tables - Pietri et al. (2019), [_The Software Heritage Graph Dataset: Public Software Development Under One Roof_](https://ieeexplore.ieee.org/document/8816748)<br>
 
+### **[Getting started with the Software Heritage API](https://docs.softwareheritage.org/devel/getting-started/api.html)**
+
 Software Heritage API primarily supports:
 
 * Retrieving objects by their intrinsic identifiers (SWHIDs).
@@ -38,7 +40,9 @@ Software Heritage API primarily supports:
 
 * There is no direct full-text search API for metadata like author names or institutions. Instead, the main entry point is the origin (URL).
 
- It is not clear how to find content related to University of Bologna.
+* Important dependecies that must be used are `requests` and `JSON` Python packages, but also any language that provides HTTP requests (GET, POST) can access the API and could be used.  
+
+ It is not clear how to find content related to (or authored by) the University of Bologna.
 
 **N.B.!** **Terms of Use:** Access to the SWH API is subject to specific terms and conditions, including restrictions on massive data extraction: [https://www.softwareheritage.org/legal/api-terms-of-use/](https://www.softwareheritage.org/legal/api-terms-of-use/).
 
