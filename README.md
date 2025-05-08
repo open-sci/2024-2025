@@ -52,7 +52,6 @@ This space contains all the material related to the [Open Science course](https:
    * Supplementary bibliography (optional):
      * Avanço, K., Balula, A., Błaszczyńska, M., Buchner, A., Caliman, L., Clivaz, C., Costa, C., Franczak, M., Gatti, R., Giglia, E., Gingold, A., Jarmelo, S., Padez, M. J., Leão, D., Maryl, M., Melinščak Zlodi, I., Mojsak, K., Morka, A., Mosterd, T., … Wieneke, L. (2021). Future of Scholarly Communication—Forging an inclusive and innovative research infrastructure for scholarly communication in Social Sciences and Humanities (p. 46). Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences. https://doi.org/10.5281/zenodo.5017705
      * Caldoni, G., Gualandi, B., & Marino, M. (2022). Research Data Management: Decision Tree [Decision tree]. Alma Mater Studiorum - Università di Bologna. https://doi.org/10.5281/zenodo.7190005
-     * Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
      * Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., & Honeyman, T. (2022). FAIR Principles for Research Software (FAIR4RS Principles) [RDA Recommendation]. Research Data Alliance. https://doi.org/10.15497/RDA00068
      * Gomes, D. G. E., Pottier, P., Crystal-Ornelas, R., Hudgins, E. J., Foroughirad, V., Sánchez-Reyes, L. L., Turba, R., Martinez, P. A., Moreau, D., Bertram, M. G., Smout, C. A., & Gaynor, K. M. (2022). Why don’t we share data and code? Perceived barriers and benefits to public archiving practices. Proceedings of the Royal Society B: Biological Sciences, 289(1987), 20221113. https://doi.org/10.1098/rspb.2022.1113
      * Gualandi, B., Caldoni, G., & Marino, M. (2022). Research Data Management: Data Lifecycle [Diagram]. Alma Mater Studiorum - Università di Bologna. https://doi.org/10.5281/zenodo.7249051
@@ -72,7 +71,6 @@ This space contains all the material related to the [Open Science course](https:
      * Beg, M., Taka, J., Kluyver, T., Konovalov, A., Ragan-Kelley, M., Thiery, N. M., & Fangohr, H. (2021). Using Jupyter for Reproducible Scientific Workflows. Computing in Science & Engineering, 23(2), 36–46. https://doi.org/10.1109/MCSE.2021.3052101
      * Belhajjame, K., Zhao, J., Garijo, D., Gamble, M., Hettne, K., Palma, R., Mina, E., Corcho, O., Gómez-Pérez, J. M., Bechhofer, S., Klyne, G., & Goble, C. (2015). Using a suite of ontologies for preserving workflow-centric research objects. Journal of Web Semantics, 32, 16–42. https://doi.org/10.1016/j.websem.2015.01.003
      * Bolderston, A. (2008). Writing an Effective Literature Review. Journal of Medical Imaging and Radiation Sciences, 39(2), 86–92. https://doi.org/10.1016/j.jmir.2008.04.009
-     * Chigbu, U. E., Atiku, S. O., & Du Plessis, C. C. (2023). The Science of Literature Reviews: Searching, Identifying, Selecting, and Synthesising. Publications, 11(1), 2. https://doi.org/10.3390/publications11010002
      * Clarke, P., Buckell, J., & Barnett, A. (2020). Registered Reports: Time to Radically Rethink Peer Review in Health Economics. PharmacoEconomics - Open, 4(1), 1–4. https://doi.org/10.1007/s41669-019-00190-x
      * Crusoe, M. R., Abeln, S., Iosup, A., Amstutz, P., Chilton, J., Tijanić, N., Ménager, H., Soiland-Reyes, S., Gavrilović, B., Goble, C., & Community, T. C. (2022). Methods included: Standardizing computational reuse and portability with the Common Workflow Language. Communications of the ACM, 65(6), 54–63. https://doi.org/10.1145/3486897
      * Hrynaszkiewicz, I. (2020, December 7). Show your work. Peer-Reviewed Protocols. The Official PLOS Blog. https://theplosblog.plos.org/2020/12/show-your-work-peer-reviewed-protocols/
@@ -90,7 +88,6 @@ This space contains all the material related to the [Open Science course](https:
      * Eve, M. P., Neylon, C., O’Donnell, D. P., Moore, S., Gadie, R., Odeniyi, V., & Parvin, S. (2020). Reading Peer Review (1st ed.). Cambridge University Press. https://doi.org/10.1017/9781108783521
      * Gangemi, A., Peroni, S., Shotton, D. M., & Vitali, F. (2017). The Publishing Workflow Ontology (PWO). Semantic Web, 8(5), 703–718. https://doi.org/10.3233/SW-160230
      * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
-     * Papanas, N., & Mikhailidis, D. P. (2024). Alice through the Looking-glass: Can We Improve Peer Review? The International Journal of Lower Extremity Wounds, 23(3), 356–359. https://doi.org/10.1177/15347346221084784
      * Ross-Hellauer, T. (2017). What is open peer review? A systematic review. F1000Research, 6, 588. https://doi.org/10.12688/f1000research.11369.2
      * Tennant, J. P., Crane, H., Crick, T., Davila, J., Enkhbayar, A., Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. Publications, 7(2), 34. https://doi.org/10.3390/publications7020034
      * Tennant, J. P., Dugan, J. M., Graziotin, D., Jacques, D. C., Waldner, F., Mietchen, D., Elkhatib, Y., B. Collister, L., Pikas, C. K., Crick, T., Masuzzo, P., Caravaggi, A., Berg, D. R., Niemeyer, K. E., Ross-Hellauer, T., Mannheimer, S., Rigling, L., Katz, D. S., Greshake Tzovaras, B., … Colomb, J. (2017). A multi-disciplinary perspective on emergent and future innovations in peer review. F1000Research, 6, 1151. https://doi.org/10.12688/f1000research.12037.3
@@ -105,7 +102,6 @@ This space contains all the material related to the [Open Science course](https:
    * Supplementary bibliography (optional):
      * Abramatic, J.-F., Di Cosmo, R., & Zacchiroli, S. (2018). Building the universal archive of source code. Communications of the ACM, 61(10), 29–31. https://doi.org/10.1145/3183558
      * Alliez, P., Cosmo, R. D., Guedj, B., Girault, A., Hacid, M.-S., Legrand, A., & Rougier, N. (2020). Attributing and Referencing (Research) Software: Best Practices and Outlook From Inria. Computing in Science & Engineering, 22(1), 39–52. https://doi.org/10.1109/MCSE.2019.2949413
-     * Borisova, E., Abu Ahmad, R., Garcia-Castro, L., Usbeck, R., & Rehm, G. (2024). Surveying the FAIRness of Annotation Tools: Difficult to find, difficult to reuse. Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII), 29–45. https://aclanthology.org/2024.law-1.4/
      * Cohen, J., Katz, D. S., Barker, M., Chue Hong, N., Haines, R., & Jay, C. (2021). The Four Pillars of Research Software Engineering. IEEE Software, 38(1), 97–105. https://doi.org/10.1109/MS.2020.2973362
      * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
      * Nuvolari, A. (2005). Open source software development: Some historical perspectives. First Monday. https://doi.org/10.5210/fm.v10i10.1284
@@ -123,7 +119,6 @@ This space contains all the material related to the [Open Science course](https:
      * Bosman, J., Frantsvåg, J. E., Kramer, B., Langlais, P.-C., & Proudman, V. (2021). OA Diamond Journals Study. Part 1: Findings. Zenodo. https://doi.org/10.5281/ZENODO.4558704
      * Brainard, J. (2021). Open access takes flight. Science, 371(6524), 16–20. https://doi.org/10.1126/science.371.6524.16
      * Fyfe, A. (2021). Self-help for learned journals: Scientific societies and the commerce of publishing in the 1950s. History of Science, 007327532199990. https://doi.org/10.1177/0073275321999901
-     * Hyde, A. (2025). PRC vs The Cathedral: How PRC Might Change Publishing (Version 1). https://www.robotscooking.com/content/files/2025/01/PRC-vs-The-Cathedral_V1.pdf
      * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
      * Logan, C. J. (2017). We can shift academic culture through publishing choices. F1000Research, 6, 518. https://doi.org/10.12688/f1000research.11415.2
      * Piwowar, H., Priem, J., Larivière, V., Alperin, J. P., Matthias, L., Norlander, B., Farley, A., West, J., & Haustein, S. (2018). The state of OA: A large-scale analysis of the prevalence and impact of Open Access articles. PeerJ, 6, e4375. https://doi.org/10.7717/peerj.4375
@@ -135,15 +130,28 @@ This space contains all the material related to the [Open Science course](https:
 8. [8/5/25] Open Metrics
    * Mandatory reading (to read and study before the lecture):
      * Ma, L. (2022). Metrics and epistemic injustice. Journal of Documentation, 78(7), 392–404. https://doi.org/10.1108/JD-12-2021-0240
+   * Theoretical part: [slide](https://docs.google.com/presentation/d/1Xuq1nH2-9gvtf4FB6MGPUoj0FS3E1K_6MAGsncPNTvU/edit?usp=sharing)
+   * Supplementary bibliography (optional):
+     * Artrake Studio (Director). (2020, June). What can DNA test really tell us about our ancestry? [Video recording]. https://www.ted.com/talks/prosanta_chakrabarty_what_can_dna_tests_really_tell_us_about_our_ancestry
+     * Barcelona Declaration on Open Research Information. (2024). [Policy]. https://barcelona-declaration.org/
+     * Cameron, R. D. (1997). A Universal Citation Database. First Monday, 2(4). https://doi.org/10.5210/fm.v2i4.522
+     * Coalition for Advancing Research Assessment. (2022). Agreement on Reforming Research Assessment [Policy]. European Science Foundation. https://coara.eu/agreement/the-agreement-full-text/
+     * Garfield, E. (1955). Citation Indexes for Science: A New Dimension in Documentation through Association of Ideas. Science, 122(3159), 108–111. https://doi.org/10.1126/science.122.3159.108
+     * Garfield, E. (2006). The History and Meaning of the Journal Impact Factor. JAMA, 295(1), 90. https://doi.org/10.1001/jama.295.1.90
+     * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * Tennant, J. P., Crane, H., Crick, T., Davila, J., Enkhbayar, A., Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. Publications, 7(2), 34. https://doi.org/10.3390/publications7020034
+     * Waltman, L. (2020, September 9). Responsible research assessment requires open scholarly metadata. Workshop on Open Citations and Open Scholarly Metadata 2020, Bologna, Italy. Zenodo. https://doi.org/10.5281/zenodo.4021492
    <hr></hr>
 
 9. [12/5/25] Open Infrastructures
+   * Mandatory reading (to read and study before the lecture):
+     * Goudarzi, S., & Dunks, R. (2023). Defining Open Scholarly Infrastructure: A Review of Relevant Literature (Version 2). Invest in Open Infrastructure. https://doi.org/10.5281/zenodo.8064102
    <hr></hr>
 
 10. [15/5/25] Wrap-up session 
     <hr></hr>
 
-11. [?] Workshop
+11. [27/6/25] Workshop
 
 
 ### Extras
