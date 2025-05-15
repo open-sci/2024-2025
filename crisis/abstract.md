@@ -1,5 +1,10 @@
 # Purpose
 This study aims to evaluate the representation and dissemination of diverse research outputs - such as software, databases, exhibitions, audio-visual materials, and others - produced by the University of Bologna's (UNIBO) researchers across various repositories. It seeks to assess the extent of overlap among these repositories, analyze citation dynamics involving these research objects, and determine their integration within UNIBO's [Current Research Information System (IRIS)](https://cris.unibo.it/).
+The Research Questions (RQs) are formulated as follows:
+1.  What is the current coverage of these kinds of research objects created by UNIBO personnel in existing repositories?
+2.  Is there any overlap among these repositories (i.e., research objects deposited in more than one)?
+3.  How many citations (incoming and outgoing), as in OpenCitations, are these research objects involved in?
+4.  How much of such research objects are actually mapped in IRIS?
 
 # Methodology
 The project team has systematically collected and analyzed metadata from selected institutional, disciplinary, and generalist repositories, including [AMS Acta](https://amsacta.unibo.it/), [Software Heritage](https://www.softwareheritage.org/), and [Zenodo](https://zenodo.org/). Relevant data and metadata were extracted using APIs and web scraping techniques. The analysis identified cross-repository depositions to assess overlaps and employ citation analysis tools, such as [OpenCitations](https://opencitations.net/), to examine citation patterns. Additionally, the collected data were cross-referenced with IRIS to evaluate its coverage of these research outputs.
