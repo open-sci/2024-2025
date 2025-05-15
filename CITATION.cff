@@ -1,0 +1,69 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Software for the final project of the Open Science course
+  a.y. 2024/2025
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alberto
+    family-names: Ciarrocca
+    email: alberto.ciarrocca@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0001-4121-5572'
+  - given-names: Ahmadreza
+    family-names: Nazari
+    email: ahmadreza.nazari@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0000-3884-1575'
+  - given-names: Anna
+    family-names: Nicoletti
+    email: anna.nicoletti5@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0003-5995-6584'
+  - given-names: Martina
+    family-names: Pensalfini
+    email: martina.pensalfini3@unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0006-8020-8849'
+  - given-names: Silvio
+    family-names: Peroni
+    email: silvio.peroni@unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0000-0003-0530-4305'
+  - given-names: Lucrezia
+    family-names: Pograri
+    email: lucrezia.pograri@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0005-0129-9627'
+  - given-names: Sergei
+    family-names: Slinkin
+    email: sergei.slinkin@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0002-6830-7765'
+  - given-names: Pietro
+    family-names: Tisci
+    email: pietro.tisci@studio.unibo.it
+    affiliation: University of Bologna
+    orcid: 'https://orcid.org/0009-0005-5460-7988'
+identifiers:
+  - type: url
+    value: 'https://github.com/open-sci/2024-2025'
+    description: >-
+      GitHub repository of the software and other material
+      (e.g. course slides and bibliography)
+repository-code: 'https://github.com/open-sci/2024-2025'
+abstract: >-
+  Software developed for addressing the research questions
+  of the project of the Open Science course 2024/2025 - see
+  https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/443753.
+keywords:
+  - bibliographic metadata
+  - citation data
+  - research objects
+  - open science
+license: ISC
