@@ -161,6 +161,11 @@ This space contains all the material related to the [Open Science course](https:
     <hr></hr>
 
 11. [27/6/25] Workshop
+    * Where: Aula Pascoli, Department of Classical Philology and Italian Studies, University of Bologna, via Zamboni 32, 40126 Bologna (BO)
+    * 11:00-11:15: Welcoming, instructions, setting up
+    * 11:15-11:45: Project presentation
+    * 11:45-12:25: Q&A
+    * 12:25-12:30: Closing
 
 
 ### Extras
@@ -184,4 +189,5 @@ Video presentations about Open Science stuff:
   <tr><td>8/5/25</td><td>12:00-15:00</td><td>Open Metrics</td></tr>
   <tr><td>12/5/25</td><td>13:00-16:00</td><td>Open Infrastructures</td></tr>
   <tr><td>15/5/25</td><td>12:00-15:00</td><td>Wrap-up session</td></tr>
+  <tr><td>27/6/25</td><td>11:00-12:30</td><td>Workshop</td></tr>
 </table>
