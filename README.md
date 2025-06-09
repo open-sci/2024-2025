@@ -162,10 +162,11 @@ This space contains all the material related to the [Open Science course](https:
 
 11. [27/6/25] Workshop
     * Where: Aula Pascoli, Department of Classical Philology and Italian Studies, University of Bologna, via Zamboni 32, 40126 Bologna (BO)
-    * 11:00-11:15: Welcoming, instructions, setting up
-    * 11:15-11:45: Project presentation
-    * 11:45-12:25: Q&A
-    * 12:25-12:30: Closing
+    * Agenda:
+      * 11:00-11:15: Welcoming, instructions, setting up
+      * 11:15-11:45: Project presentation
+      * 11:45-12:25: Q&A
+      * 12:25-12:30: Closing
 
 
 ### Extras
