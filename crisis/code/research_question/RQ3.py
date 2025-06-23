@@ -1,17 +1,14 @@
 import requests
 import pandas as pd
 import time
-#import pprint
 
-df= pd.read_csv("C:/Users/annan/Downloads/iris-data-2025-05-30/POSTPROCESS-iris-data-2025-05-27/ODS_L1_IR_ITEM_IDENTIFIER.csv", low_memory=False) 
-list_doi= df["IDE_DOI"].dropna().tolist() 
-#print(list_doi)
+df= pd.read_csv("C:/Users/annan/Downloads/mashup.csv", low_memory=False)
+list_doi= df["doi"].dropna().tolist() 
 
-HTTP_HEADERS = {"authorization": "63f51be3-c310-43b7-b03a-478ff055ac62"} 
 
 def get_references(doi):        #outgoing citations
     url = f"https://opencitations.net/index/api/v2/references/doi:{doi}"
-    response = requests.get(url, headers=HTTP_HEADERS)
+    response = requests.get(url)
     if response.status_code == 200:
         return response.json()
     else:
@@ -21,31 +18,55 @@ def get_references(doi):        #outgoing citations
 def get_citations(doi):     #ingoing citations
     url = f"https://opencitations.net/index/api/v2/citations/doi:{doi}"
     response = requests.get(url)
-    print(response.status_code)
     if response.status_code == 200:
         return response.json()
     else:
         print(f"Error fetching citations for {doi}: {response.status_code}")
         return []
     
-print(get_citations('10.6092/issn.1828-5961/3659'))
-    
-"""outgoing= list()    
-for doi in list_doi[:20]:
-    outgoing.append(get_references(doi))
-    time.sleep(1)
-#pprint.pp(outgoing)
-print(outgoing)"""
 
-ingoing_cit= list()
-ingoing_oci = set()    
-for doi in list_doi[:10]:
+rows1 = []    #DF outgoing cit
+
+for doi in list_doi:
+    outgoing_cit= list()
+    outgoing_oci = set() 
+    citations = get_references(doi)
+    for cit in citations:   #check duplicates
+        oci = cit.get("oci")
+        if oci is not None and oci not in outgoing_oci:
+            outgoing_cit.append(cit)
+            outgoing_oci.add(oci)
+    rows1.append({
+        'doi': doi,
+        'cite_num_outgoing': len(outgoing_cit),
+        'oci_outgoing': list(outgoing_oci)
+        })
+    time.sleep(1)
+
+output_table1 = pd.DataFrame(rows1)
+
+
+rows2 = []   #DF ingoing cit
+
+for doi in list_doi:
+    ingoing_cit= list()
+    ingoing_oci = set() 
     citations = get_citations(doi)
     for cit in citations:
         oci = cit.get("oci")
         if oci is not None and oci not in ingoing_oci:
             ingoing_cit.append(cit)
             ingoing_oci.add(oci)
+    rows2.append({
+        'doi': doi,
+        'cite_num_ingoing': len(ingoing_cit),
+        'oci_ingoing': list(ingoing_oci)
+        })
     time.sleep(1)
-print(ingoing_cit)
-#pprint.pp(ingoing)"""
+
+output_table2 = pd.DataFrame(rows2)
+
+
+output = pd.merge(output_table1, output_table2, on='doi', how="outer")
+output.to_csv("CitationCounts", index=False)
+
