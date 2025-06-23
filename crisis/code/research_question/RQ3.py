@@ -68,5 +68,5 @@ output_table2 = pd.DataFrame(rows2)
 
 
 output = pd.merge(output_table1, output_table2, on='doi', how="outer")
-output.to_csv("CitationCounts", index=False)
+output.to_csv("CitationsCount", index=False)
 
