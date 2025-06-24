@@ -1,72 +1,73 @@
-import requests
-import pandas as pd
-import time
+import requests, pandas as pd, time, logging
+from urllib.parse import quote_plus
+from tqdm.auto import tqdm
 
-df= pd.read_csv("C:/Users/annan/Downloads/mashup.csv", low_memory=False)
-list_doi= df["doi"].dropna().tolist() 
-
-
-def get_references(doi):        #outgoing citations
-    url = f"https://opencitations.net/index/api/v2/references/doi:{doi}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Error fetching references for {doi}: {response.status_code}")
-        return []
-
-def get_citations(doi):     #ingoing citations
-    url = f"https://opencitations.net/index/api/v2/citations/doi:{doi}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Error fetching citations for {doi}: {response.status_code}")
-        return []
-    
-
-rows1 = []    #DF outgoing cit
-
-for doi in list_doi:
-    outgoing_cit= list()
-    outgoing_oci = set() 
-    citations = get_references(doi)
-    for cit in citations:   #check duplicates
-        oci = cit.get("oci")
-        if oci is not None and oci not in outgoing_oci:
-            outgoing_cit.append(cit)
-            outgoing_oci.add(oci)
-    rows1.append({
-        'doi': doi,
-        'cite_num_outgoing': len(outgoing_cit),
-        'oci_outgoing': list(outgoing_oci)
-        })
-    time.sleep(1)
-
-output_table1 = pd.DataFrame(rows1)
+df  = pd.read_csv("C:/Users/annan/Downloads/mashup_IRIS_subset.csv", low_memory=False)   
+list_doi = df["doi"].dropna().tolist()             
 
 
-rows2 = []   #DF ingoing cit
+BASE = "https://opencitations.net/index/api/v2"
+HEADERS = {"User-Agent": "CitationsBot/0.1 (mailto:you@example.com)"}
 
-for doi in list_doi:
-    ingoing_cit= list()
-    ingoing_oci = set() 
-    citations = get_citations(doi)
-    for cit in citations:
-        oci = cit.get("oci")
-        if oci is not None and oci not in ingoing_oci:
-            ingoing_cit.append(cit)
-            ingoing_oci.add(oci)
-    rows2.append({
-        'doi': doi,
-        'cite_num_ingoing': len(ingoing_cit),
-        'oci_ingoing': list(ingoing_oci)
-        })
-    time.sleep(1)
+logging.basicConfig(
+    filename="citations_errors.log",
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s: %(message)s"
+)
 
-output_table2 = pd.DataFrame(rows2)
+session = requests.Session()
+session.headers.update(HEADERS)
 
+def fetch(endpoint, *, max_retries=3, pause=7):
+    """Return JSON list or raise after exhausting retries."""
+    for attempt in range(max_retries):
+        try:
+            r = session.get(endpoint, timeout=15)
+            if r.status_code == 429:
+                # rate-limit → wait a bit longer
+                time.sleep(pause * 2)
+                continue
+            r.raise_for_status()
+            return r.json()
+        except (requests.RequestException, ValueError) as e:
+            # ValueError covers JSON decode errors
+            logging.info("attempt %d failed for %s: %s", attempt + 1, endpoint, e)
+            time.sleep(pause)
+    # All retries failed → raise to signal a fatal fail for this DOI
+    raise RuntimeError(f"❌ all retries failed for {endpoint}")
 
-output = pd.merge(output_table1, output_table2, on='doi', how="outer")
-output.to_csv("CitationsCount", index=False)
+def get_objects(kind, doi):
+    """Wrap fetch() and return [], not raise, on total failure."""
+    url = f"{BASE}/{kind}/doi:{quote_plus(doi)}"
+    try:
+        return fetch(url)
+    except Exception as e:
+        logging.error("%s – giving up: %s", doi, e)
+        return None      # keep a sentinel to flag the miss in the table
 
+rows = []
+for doi in tqdm(list_doi):
+    outgoing = get_objects("references", doi)
+    ingoing  = get_objects("citations",  doi)
+
+    # When fetch failed, outgoing or ingoing will be None
+    out_set = {c["oci"] for c in outgoing or [] if c.get("oci")}
+    in_set  = {c["oci"] for c in ingoing  or [] if c.get("oci")}
+
+    rows.append({
+        "doi": doi,
+        "cite_num_outgoing": None if outgoing is None else len(out_set),
+        "cite_num_ingoing" : None if ingoing  is None else len(in_set),
+        "oci_outgoing"     : list(out_set) if outgoing is not None else None,
+        "oci_ingoing"      : list(in_set)  if ingoing  is not None else None,
+        "status"           : (
+            "failed_both" if outgoing is None and ingoing is None else
+            "failed_outgoing" if outgoing is None else
+            "failed_ingoing"  if ingoing  is None else
+            "ok"
+        )
+    })
+    time.sleep(1)   
+
+output = pd.DataFrame(rows)
+output.to_csv("CitationsCount.csv", index=False)
