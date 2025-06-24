@@ -1,40 +1,42 @@
 import os
 import csv
-import math
+
+MAX_CHUNK_SIZE = 25 * 1024 * 1024  # 25 MB limit
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 input_file = os.path.join(base_dir, 'mashup.csv')
 output_dir = os.path.join(base_dir, 'sub_mash')
-num_chunks = 5
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-# count total rows
-with open(input_file, 'r', encoding='utf-8') as f:
-    total_rows = sum(1 for line in f) - 1  # subtract header row
-
-rows_per_chunk = math.ceil(total_rows / num_chunks)
-
-with open(input_file, 'r', newline='', encoding='utf-8') as csvfile:
-    reader = csv.reader(csvfile)
+with open(input_file, 'r', newline='', encoding='utf-8') as infile:
+    reader = csv.reader(infile)
     header = next(reader)
 
-    for chunk_index in range(1, num_chunks + 1):
-        output_file = os.path.join(output_dir, f'chunk_{chunk_index}.csv')
-        with open(output_file, 'w', newline='', encoding='utf-8') as outfile:
+    chunk_index = 1
+    output_file = os.path.join(output_dir, f'chunk_{chunk_index}.csv')
+    outfile = open(output_file, 'w', newline='', encoding='utf-8')
+    writer = csv.writer(outfile)
+    writer.writerow(header)
+    current_size = outfile.tell()
+
+    for row in reader:
+        row_data = ','.join(row) + '\n'  # roughly estimate row size
+        row_size = len(row_data.encode('utf-8'))
+
+        if current_size + row_size > MAX_CHUNK_SIZE:
+            outfile.close()
+            chunk_index += 1
+            output_file = os.path.join(output_dir, f'chunk_{chunk_index}.csv')
+            outfile = open(output_file, 'w', newline='', encoding='utf-8')
             writer = csv.writer(outfile)
             writer.writerow(header)
+            current_size = outfile.tell()
 
-            rows_written = 0
-            # write rows_per_chunk rows into this chunk
-            while rows_written < rows_per_chunk:
-                try:
-                    row = next(reader)
-                    writer.writerow(row)
-                    rows_written += 1
-                except StopIteration:
-                    # no more rows left at this point (or hopefully)
-                    break
+        writer.writerow(row)
+        current_size = outfile.tell()
 
-print(f"Created {num_chunks} chunk files in '{output_dir}' directory.")
+    outfile.close()
+
+print(f"Created {chunk_index} chunk files in '{output_dir}' directory.")
