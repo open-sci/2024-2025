@@ -56,8 +56,8 @@ for doi in tqdm(list_doi):
 
     rows.append({
         "doi": doi,
-        "cite_num_outgoing": None if outgoing is None else len(out_set),
-        "cite_num_ingoing" : None if ingoing  is None else len(in_set),
+        "cit_num_outgoing": None if outgoing is None else len(out_set),
+        "cit_num_ingoing" : None if ingoing  is None else len(in_set),
         "oci_outgoing"     : list(out_set) if outgoing is not None else None,
         "oci_ingoing"      : list(in_set)  if ingoing  is not None else None,
         "status"           : (
