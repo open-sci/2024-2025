@@ -1,0 +1,7 @@
+repo_a,repo_b,main_duplicate_types,objects_shared
+amsacta,iris,datasets,19
+amsacta,iris,technical reports,26
+amsacta,zenodo,datasets,4
+iris,zenodo,datasets,20
+iris,zenodo,software,1
+iris,zenodo,technical reports,19
