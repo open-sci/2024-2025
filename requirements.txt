@@ -7,3 +7,4 @@ Python version 3.13
 'requests == version 2.32.4'
 'json5 == version 0.12.0'
 'urllib3 == version 2.5.0'
+'beautifulsoup4 == version 4.13.4'
