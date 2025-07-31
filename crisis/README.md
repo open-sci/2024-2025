@@ -1,6 +1,6 @@
 # Material produced
 
-## Article: 
+## Article
 Ciarrocca, A., Nazari, A., Nicoletti, A., Pensalfini, M., Peroni, S., Tisci, P., Pograri, L., & Slinkin, S. (2025). Beyond the Paper: Evaluating Repository Coverage and Citation Impact of Heterogeneous Research Outputs at UNIBO. Zenodo. https://doi.org/10.5281/zenodo.15745096
 
 ## Data Management Plan
