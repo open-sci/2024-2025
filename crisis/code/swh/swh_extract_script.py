@@ -1,20 +1,18 @@
 import os
 import json
 import time
+
 import requests
 from requests.adapters import HTTPAdapter
 from requests.exceptions import RetryError, Timeout
 from urllib3.util.retry import Retry
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(base_dir, "swh_output")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
 # timeout handling
 def safe_request(method, url, session, max_attempts=5, timeout=15, **kwargs):
     """
     Performs session.request(method, url) with:
-      - honoring Retry-After on HTTP 429, but on the second consecutive 429 pauses for 1 hour before retrying
+      - honoring Retry-After on HTTP 429, but on the second consecutive 429
+        pauses for 1 hour before retrying
       - exponential backoff on timeouts / network errors (up to max_attempts)
       - raises after max_attempts timeouts / network errors
     """
@@ -57,15 +55,15 @@ def safe_request(method, url, session, max_attempts=5, timeout=15, **kwargs):
         resp.raise_for_status()
         return resp
 
-# Configuration - files in OUTPUT_DIR
+# Configuration
 KEYWORDS         = ["unibo", "unibo.it", "alma mater", "alma mater studiorum",
                     "university of bologna", "almamaterstudiorum",
                     "università di bologna", "universita di bologna"]
 API_BASE         = "https://archive.softwareheritage.org/api/1"
 SEARCH_PARAMS    = {"with_visit": "true", "limit": 1000}
-CACHE_FILE       = os.path.join(OUTPUT_DIR, "cached_candidate_origins.json")
-PROCESSED_FILE   = os.path.join(OUTPUT_DIR, "processed_origins.json")
-CONFIRMED_FILE   = os.path.join(OUTPUT_DIR, "unibo_repositories_swh.json")
+CACHE_FILE       = "cached_candidate_origins.json"
+PROCESSED_FILE   = "processed_origins.json"
+CONFIRMED_FILE   = "unibo_repositories_swh.json"
 DEFAULT_TIMEOUT  = 15
 LOG_LIMIT        = 200  # page size for log pagination
 
@@ -147,9 +145,6 @@ for idx, entry in enumerate(origins):
         continue
     url = entry.get('url')
     print(f"\n[{idx}/{len(origins)}] Checking {url}")
-    last_idx = idx
-    with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
-        json.dump({"last_index": last_idx}, f)
 
     if not url:
         continue
@@ -235,5 +230,9 @@ for idx, entry in enumerate(origins):
             json.dump(confirmed, f, indent=2)
     else:
         print(" → not UNIBO, skip")
+
+    # write checkpoint ONLY after fully processing item
+    with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
+        json.dump({"last_index": idx}, f)
 
 print(f"\nFiltering done: {len(confirmed)} confirmed repos.")
