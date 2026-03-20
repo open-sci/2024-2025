@@ -1,3 +1,5 @@
+import math
+
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -228,7 +230,13 @@ for idx, (src_key, _) in enumerate(sources):
     axis_idx = "" if idx == 0 else str(idx + 1)
     fig.update_layout(**{
         f"xaxis{axis_idx}": AXIS_STYLE,
-        f"yaxis{axis_idx}": dict(range=[0, 650], autorange=False),
+        f"yaxis{axis_idx}": dict(
+    type="log",
+    tickmode="array",
+    tickvals=[1, 5, 10, 50, 100, 300, 650],
+    ticktext=["1", "5", "10", "50", "100", "300", "650"],
+    range=[0, math.log10(650)],  
+),
     })
 
 fig.update_layout(
@@ -238,5 +246,5 @@ fig.update_layout(
     height=800,
 )
 
-#fig.show(renderer="browser")
-pio.write_image(fig, "timegraph.jpeg", width=1400, height=900, scale=2)
+fig.show(renderer="browser")
+#pio.write_image(fig, "timegraph.jpeg", width=1400, height=900, scale=2)
