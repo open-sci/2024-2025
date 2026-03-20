@@ -246,5 +246,5 @@ fig.update_layout(
     height=800,
 )
 
-fig.show(renderer="browser")
-#pio.write_image(fig, "timegraph.jpeg", width=1400, height=900, scale=2)
+#fig.show(renderer="browser")
+pio.write_image(fig, "timegraph.jpeg", width=1400, height=900, scale=2)
