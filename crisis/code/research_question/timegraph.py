@@ -179,7 +179,7 @@ fig = make_subplots(
 )
 
 # Shared axis style
-AXIS_STYLE = dict(tickmode="linear", tick0=2004, dtick=1, tickangle=45)
+AXIS_STYLE = dict(tickmode="linear", tick0=2004, dtick=1, tickangle=45, range=[2003.5, 2025.5],)
 
 for idx, (src_key, _) in enumerate(sources):
     row, col = divmod(idx, 2)
@@ -230,13 +230,7 @@ for idx, (src_key, _) in enumerate(sources):
     axis_idx = "" if idx == 0 else str(idx + 1)
     fig.update_layout(**{
         f"xaxis{axis_idx}": AXIS_STYLE,
-        f"yaxis{axis_idx}": dict(
-    type="log",
-    tickmode="array",
-    tickvals=[1, 5, 10, 50, 100, 300, 650],
-    ticktext=["1", "5", "10", "50", "100", "300", "650"],
-    range=[0, math.log10(650)],  
-),
+        f"yaxis{axis_idx}": dict(autorange = True),
     })
 
 fig.update_layout(
