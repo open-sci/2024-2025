@@ -17,9 +17,9 @@ This space contains all the material related to the [Open Science course](https:
 ### Material
 
 1. [31/3/25] Introduction to Open Science
-   * Introduction to the course: [slide](https://open-sci.github.io/slides/00.pdf)
-   * Theoretical part: [slide](https://open-sci.github.io/slides/01.pdf)
-   * Project Presentation: [slide](https://open-sci.github.io/slides/01H.pdf)
+   * Introduction to the course: [slide](https://open-sci.github.io/2024-2025/slides/00.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/01.pdf)
+   * Project Presentation: [slide](https://open-sci.github.io/2024-2025/slides/01H.pdf)
    * Supplementary bibliography (optional):
      * Bahlai, C., Bartlett, L., Burgio, K., Fournier, A., Keiser, C., Poisot, T., & Whitney, K. (2019). Open Science Isn’t Always Open to All Scientists. American Scientist, 107(2), 78. https://doi.org/10.1511/2019.107.2.78
      * Fecher, B., & Friesike, S. (2014). Open Science: One Term, Five Schools of Thought. In S. Bartling & S. Friesike (Eds.), Opening Science (pp. 17–47). Springer International Publishing. https://doi.org/10.1007/978-3-319-00026-8_2
@@ -34,7 +34,7 @@ This space contains all the material related to the [Open Science course](https:
 2. [3/4/25] Reproducibility
    * Mandatory reading (to read and study before the lecture):
      * Meng, X.-L. (2020). Reproducibility, Replicability, and Reliability. Harvard Data Science Review, 2(4). https://doi.org/10.1162/99608f92.dbfce7f9 
-   * Theoretical part: [slide](https://open-sci.github.io/slides/02.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/02.pdf)
    * Supplementary bibliography (optional):
      * Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
      * European Commission, Directorate General for Research and Innovation, Baker, L., Cristea, I. A., Errington, T. M., Jaśko, K., Lusoli, W., MacCallum, C. J., Parry, V., Pérignon, C., Šimko, T., & Winchester, C. (2020). Reproducibility of scientific results in the EU: Scoping report (W. Lusoli, Ed.). Publications Office. https://doi.org/10.2777/341654
@@ -48,7 +48,7 @@ This space contains all the material related to the [Open Science course](https:
 3. [7/4/25] FAIR and Open Data
    * Mandatory reading (to read and study before the lecture):
      * Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
-   * Theoretical part: [slide](https://open-sci.github.io/slides/03.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/03.pdf)
    * Supplementary bibliography (optional):
      * Avanço, K., Balula, A., Błaszczyńska, M., Buchner, A., Caliman, L., Clivaz, C., Costa, C., Franczak, M., Gatti, R., Giglia, E., Gingold, A., Jarmelo, S., Padez, M. J., Leão, D., Maryl, M., Melinščak Zlodi, I., Mojsak, K., Morka, A., Mosterd, T., … Wieneke, L. (2021). Future of Scholarly Communication—Forging an inclusive and innovative research infrastructure for scholarly communication in Social Sciences and Humanities (p. 46). Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences. https://doi.org/10.5281/zenodo.5017705
      * Caldoni, G., Gualandi, B., & Marino, M. (2022). Research Data Management: Decision Tree [Decision tree]. Alma Mater Studiorum - Università di Bologna. https://doi.org/10.5281/zenodo.7190005
@@ -66,7 +66,7 @@ This space contains all the material related to the [Open Science course](https:
 4. [10/4/25] Open Methodology
    * Mandatory reading (to read and study before the lecture):
      * Chigbu, U. E., Atiku, S. O., & Du Plessis, C. C. (2023). The Science of Literature Reviews: Searching, Identifying, Selecting, and Synthesising. Publications, 11(1), 2. https://doi.org/10.3390/publications11010002
-   * Theoretical part: [slide](https://open-sci.github.io/slides/04.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/04.pdf)
    * Supplementary bibliography (optional):
      * Beg, M., Taka, J., Kluyver, T., Konovalov, A., Ragan-Kelley, M., Thiery, N. M., & Fangohr, H. (2021). Using Jupyter for Reproducible Scientific Workflows. Computing in Science & Engineering, 23(2), 36–46. https://doi.org/10.1109/MCSE.2021.3052101
      * Belhajjame, K., Zhao, J., Garijo, D., Gamble, M., Hettne, K., Palma, R., Mina, E., Corcho, O., Gómez-Pérez, J. M., Bechhofer, S., Klyne, G., & Goble, C. (2015). Using a suite of ontologies for preserving workflow-centric research objects. Journal of Web Semantics, 32, 16–42. https://doi.org/10.1016/j.websem.2015.01.003
@@ -82,7 +82,7 @@ This space contains all the material related to the [Open Science course](https:
 5. [14/4/25] Open Peer Review
    * Mandatory reading (to read and study before the lecture):
      * Papanas, N., & Mikhailidis, D. P. (2024). Alice through the Looking-glass: Can We Improve Peer Review? The International Journal of Lower Extremity Wounds, 23(3), 356–359. https://doi.org/10.1177/15347346221084784
-   * Theoretical part: [slide](https://open-sci.github.io/slides/05.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/05.pdf)
    * Supplementary bibliography (optional):
      * Coalition for Advancing Research Assessment. (2022). Agreement on Reforming Research Assessment [Policy]. European Science Foundation. https://coara.eu/agreement/the-agreement-full-text/
      * Eve, M. P., Neylon, C., O’Donnell, D. P., Moore, S., Gadie, R., Odeniyi, V., & Parvin, S. (2020). Reading Peer Review (1st ed.). Cambridge University Press. https://doi.org/10.1017/9781108783521
@@ -98,7 +98,7 @@ This space contains all the material related to the [Open Science course](https:
 6. [28/4/25] Open Source Software
    * Mandatory reading (to read and study before the lecture):
      * Borisova, E., Abu Ahmad, R., Garcia-Castro, L., Usbeck, R., & Rehm, G. (2024). Surveying the FAIRness of Annotation Tools: Difficult to find, difficult to reuse. Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII), 29–45. https://aclanthology.org/2024.law-1.4/
-   * Theoretical part: [slide](https://open-sci.github.io/slides/06.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/06.pdf)
    * Supplementary bibliography (optional):
      * Abramatic, J.-F., Di Cosmo, R., & Zacchiroli, S. (2018). Building the universal archive of source code. Communications of the ACM, 61(10), 29–31. https://doi.org/10.1145/3183558
      * Alliez, P., Cosmo, R. D., Guedj, B., Girault, A., Hacid, M.-S., Legrand, A., & Rougier, N. (2020). Attributing and Referencing (Research) Software: Best Practices and Outlook From Inria. Computing in Science & Engineering, 22(1), 39–52. https://doi.org/10.1109/MCSE.2019.2949413
@@ -114,7 +114,7 @@ This space contains all the material related to the [Open Science course](https:
 7. [5/5/25] Open Access
    * Mandatory reading (to read and study before the lecture):
      * Hyde, A. (2025). PRC vs The Cathedral: How PRC Might Change Publishing (Version 1). https://www.robotscooking.com/content/files/2025/01/PRC-vs-The-Cathedral_V1.pdf 
-   * Theoretical part: [slide](https://open-sci.github.io/slides/07.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/07.pdf)
    * Supplementary bibliography (optional):
      * Bosman, J., Frantsvåg, J. E., Kramer, B., Langlais, P.-C., & Proudman, V. (2021). OA Diamond Journals Study. Part 1: Findings. Zenodo. https://doi.org/10.5281/ZENODO.4558704
      * Brainard, J. (2021). Open access takes flight. Science, 371(6524), 16–20. https://doi.org/10.1126/science.371.6524.16
@@ -130,7 +130,7 @@ This space contains all the material related to the [Open Science course](https:
 8. [8/5/25] Open Metrics
    * Mandatory reading (to read and study before the lecture):
      * Ma, L. (2022). Metrics and epistemic injustice. Journal of Documentation, 78(7), 392–404. https://doi.org/10.1108/JD-12-2021-0240
-   * Theoretical part: [slide](https://open-sci.github.io/slides/08.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/08.pdf)
    * Supplementary bibliography (optional):
      * Artrake Studio (Director). (2020, June). What can DNA test really tell us about our ancestry? [Video recording]. https://www.ted.com/talks/prosanta_chakrabarty_what_can_dna_tests_really_tell_us_about_our_ancestry
      * Barcelona Declaration on Open Research Information. (2024). [Policy]. https://barcelona-declaration.org/
@@ -146,7 +146,7 @@ This space contains all the material related to the [Open Science course](https:
 9. [12/5/25] Open Infrastructures
    * Mandatory reading (to read and study before the lecture):
      * Goudarzi, S., & Dunks, R. (2023). Defining Open Scholarly Infrastructure: A Review of Relevant Literature (Version 2). Invest in Open Infrastructure. https://doi.org/10.5281/zenodo.8064102
-   * Theoretical part: [slide](https://open-sci.github.io/slides/09.pdf)
+   * Theoretical part: [slide](https://open-sci.github.io/2024-2025/slides/09.pdf)
    * Supplementary bibliography (optional):
      * Bilder, G., Lin, J., & Neylon, C. (2023, November). The Principles of Open Scholarly Infrastructure. The Principles of Open Scholarly Infrastructure. https://doi.org/10.24343/C34W2H
      * EOSC Association. (2025). EOSC Federation Handbook (Handbook Version 1). EOSC Association. https://doi.org/10.5281/zenodo.14999577
